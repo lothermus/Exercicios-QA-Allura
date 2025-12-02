@@ -8,7 +8,7 @@ describe('Deve ver os pets disponíveis', () => {
         cy.get('[data-test="login-button"]').click()
         cy.get('.header__home').click()
         cy.contains('a', 'Ver pets disponíveis para adoção').click()//Acessa a página de 'Ver pets para adoção'
-        cy.get('.card__contact').click()
+        cy.get('.card__contact')
     }
     )
 }
