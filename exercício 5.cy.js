@@ -8,7 +8,7 @@ describe('Exercício 5: Visitar páginas do Adopet', ()=>{
     })
 
     it('Verificar se o texto "Quem ama adota!" está no html', ()=>{
-        cy.contains('Quem ama adota!')
+        cy.contains('Quem ama adota!');
     })
 
     it('Verifique se o texto “Adotar pode mudar uma vida. Que tal buscar seu novo melhor amigo hoje? Vem com a gente!" está no html', ()=>{
